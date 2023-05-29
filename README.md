@@ -5,7 +5,7 @@ Using a multi-agent simulation to simulate the infection spread model. In case o
 ## Implementation Details
 * The agent is configured to transition its "physical condition" for each My Loop as it does in daily life. (A transition diagram of the physical condition is shown below. More rigorous consideration should be given to parameter settings.)
 
-<img width="500" alt="infection_rate" src="/images/infection_rate.png">
+<img width="500" alt="infection_rate" src="/images/infection_rate_Eng.png">
 
 * There is a 10% chance of becoming ill and a 30% chance of contracting the disease if in contact with a sick agent.
 
