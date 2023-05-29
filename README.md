@@ -18,11 +18,12 @@ Using a multi-agent simulation to simulate the infection spread model. In case o
 <img width="800" alt="MaltiAgentSimulation" src="/images/MaltiAgentSimulation.gif">
 
 Relationship between physical condition and color
-* Green: good
-* White: normal
-* Blue: poor health
-* Purple: infected
-* （Red: at contact)
+- ![#00ff00](https://via.placeholder.com/15/00ff00/000000?text=+) `Green : good`
+- ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `White : normal`
+- ![#0000ff](https://via.placeholder.com/15/0000ff/000000?text=+) `Blue: poor health`
+- ![#ff00ff](https://via.placeholder.com/15/ff00ff/000000?text=+) `Purple: infected`
+- ![#ff0000](https://via.placeholder.com/15/ff0000/000000?text=+) `(Red: at contact)`
+
 
 ## Comparison of the number of cases of infection with and without self-restraint
 **Although the spread of infection was slowed, it did not decrease.**
@@ -35,6 +36,7 @@ Relationship between physical condition and color
   * Possible Factors : The number of infected persons has been mostly accounted for by the number of randomly generated infected persons.
 ## A function to select an arbitrary agent and search the agent's contact history is implemented in GAS.
 <img width="800" alt="MaltiAgentSimulation_spreadsheet" src="/images/MaltiAgentSimulation_spreadsheet.gif">
+By specifying an ID when executing the script, you can obtain a list of IDs of agents contacted by the agent with that ID.
 
 ---
 
